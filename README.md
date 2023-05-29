@@ -6,3 +6,7 @@
 - CD to the project dir, run `go run cmd/main.go`.
 - Go to localhost:8080/stream.
 - Test mp3 should start playing automatically.
+
+### Or just go here
+
+-

@@ -12,10 +12,12 @@ import (
 )
 
 func main() {
-	 http.HandleFunc("/stream", mp3Handler)
+	http.HandleFunc("/stream", mp3Handler)
 
     log.Println("Server listening on port 8080...")
     log.Fatal(http.ListenAndServe(":8080", nil))
+	
+	
 }
 
 func mp3Handler(w http.ResponseWriter, r *http.Request) {
